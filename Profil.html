@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok 8</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+</head>
+<body>
+
+
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html" class="logo">kelompok
+                <i class="fab fa-staylinked"></i>8
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Profil.html">Profil</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Tentang.html">Tentang</a></li>
+                    <li><a href="Kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Jurusan</h1>
+    </section>
+
+
+    <section class="facilities">
+        <h1>Top 3 Prodi Favorit</h1>
+        <p>Berikut adalah top 3 prodi favorit Uiversitas Bengkulu</p>
+
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="foto10.jpg" alt="">
+                <h3>Informatika</h3>
+                <p>Program Studi Informatika adalah program akademik yang mempelajari komputasi dan teknologi informasi untuk pengembangan perangkat lunak, keamanan jaringan, dan analisis data. Tujuannya adalah melatih mahasiswa dalam penerapan teknologi informasi dan mengembangkan solusi inovatif.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="foto11.jpeg" alt="">
+                <h3>Hukum</h3>
+                <p>Program studi hukum adalah bidang akademik yang mempelajari sistem aturan hukum, proses peradilan, dan prinsip-prinsip hukum yang berlaku. Tujuannya adalah untuk memahami dan menerapkan konsep hukum dalam konteks sosial dan politik.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="foto12.jpeg" alt="">
+                <h3>Pendidikan Matematika</h3>
+                <p>Program Studi Pendidikan Matematika melatih calon guru dalam mengajar matematika di berbagai tingkat pendidikan. Mereka mempelajari konsep matematika, strategi pengajaran, dan penilaian hasil belajar. Program ini bertujuan menciptakan pendidik yang inspiratif dan efektif.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="table-univ">
+        <div class="container">
+            <h2>Akreditas Prodi</h2>
+            <ul class="responsive-table">
+            <li class="table-header">
+                <div class="col col-1">No.</div>
+                <div class="col col-2">Nama Prodi</div>
+                <div class="col col-3">Akreditasi</div>
+                <div class="col col-4"></div>
+            </li>
+
+            <li class="table-row">
+                <div class="col col-1" data-label="Nomor">1</div>
+                <div class="col col-2" data-label="Nama Univ">Informatika</div>
+                <div class="col col-3" data-label="Akreditasi">B</div>
+                <div class="col col-4" data-label="Kunjungi Kami"><button class="button-visit" onclick="openNewTab('https://ft.unib.ac.id/informatika/')"">Kunjungi</button></div>
+            </li>
+
+            <li class="table-row">
+                <div class="col col-1" data-label="Nomor">2</div>
+                <div class="col col-2" data-label="Nama Univ">Hukum</div>
+                <div class="col col-3" data-label="Akreditasi">A</div>
+                <div class="col col-4" data-label="Kunjungi Kami"><button class="button-visit" onclick="openNewTab('https://fh.unib.ac.id/')"">Kunjungi</button></div>
+            </li>
+
+            <li class="table-row">
+                <div class="col col-1" data-label="Nomor">3</div>
+                <div class="col col-2" data-label="Nama Univ">Pendidikan Matematika</div>
+                <div class="col col-3" data-label="Akreditasi">B</div>
+                <div class="col col-4" data-label="Kunjungi Kami"><button class="button-visit" onclick="openNewTab('https://pmat.fkip.unib.ac.id/')"">Kunjungi</button></div>
+            </li>
+            </ul>
+        </div>
+    </section>
+
+   
+    <section class="footer">
+        <hr>
+        <h4>About Us</h4>
+
+        
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by <a href="#">Kelompok8</a></p>
+        <p>Copyright © 2024 <a href="index.html">informatika</a>. All Rights Reserved</p>
+    </section>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

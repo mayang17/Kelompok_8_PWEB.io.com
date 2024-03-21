@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok 8</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html" class="logo">kelompok
+                <i class="fab fa-staylinked"></i>8
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Profil.html">Profil</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Tentang.html">Tentang</a></li>
+                    <li><a href="Kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Kontak Kami</h1>
+    </section>
+
+
+    <section class="loacation">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63699.71841412!2d102.20029022167971!3d-3.7595198999999955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e36b1c18941d9f3%3A0x1aecc8afb80fdf02!2sUniversitas%20Bengkulu!5e0!3m2!1sid!2sid!4v1710748240497!5m2!1sid!2sid"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="content-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Universitas Bengkulu</h5>
+                        <p>Jl.Wr Supratman,Universitas Bengkulu</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+628 2362872469</h5>
+                        <p>setiaphari 24 jam</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>Kelompok8@gmail.com</h5>
+                        <p>Emaii</p>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="content-col">
+                <form id="kontak-form" action="#">
+                    <input type="text" placeholder="Enter Name" required>
+                    <input type="email" placeholder="Enter Email" required>
+                    <input type="text" placeholder="Enter Subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="button" id="btn-kontak" class="hero_btn btn" onclick="submitFormPesan()">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <hr>
+        <h4>About Us</h4>
+        
+
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by <a href="#">Kelompok 8</a></p>
+        <p>Copyright © 2024 <a href="index.html">informatika</a>. All Rights Reserved</p>
+    </section>
+    <!-- Footer Section End -->
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
